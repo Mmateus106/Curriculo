@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Ubuntu:wght@300&display=swap');
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.titulo-destaque {
+    color: lightblue;
+}
+
+span{
+    color: lightblue;
+}
+
+.span-destaque {
+    color: white;
+}
+
+.apresentacao{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.apresentacao__links__link{
+    /* background-color: lightblue; */
+    border: 2px solid lightskyblue;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600px;
+    padding: 20px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* FUNÇÕES DAS PROPRIEDADES ACIMA
+- border-radius: torna as bordas dos links arredondadas.
+- text decoration: altera a decoraçāo do texto, podendo remover a mesma tambem.
+-
